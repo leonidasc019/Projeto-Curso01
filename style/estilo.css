@@ -15,6 +15,10 @@
         text-decoration: none;
     }
     
+    #logo h1 {
+        float: left;
+    }
+    
     #logo a {
         width: 248px;
         height: 21px;
@@ -47,4 +51,17 @@
     
     nav ul li a:hover {
         border-bottom: 1px solid #535858;
+    }
+    /* Principal */
+    
+    #conteudo {
+        width: 710px;
+        float: left;
+        background: green;
+    }
+    
+    aside {
+        width: 350px;
+        float: right;
+        background: #ebe7dd;
     }
