@@ -57,7 +57,6 @@
     #conteudo {
         width: 710px;
         float: left;
-        background: green;
     }
     
     aside {
@@ -130,4 +129,21 @@
     section#galeria a {
         display: inline-block;
         background: url(/img/fundo-foto.png) no-repeat;
+    }
+    
+    footer {
+        clear: both;
+        padding: 20px 0 30px 0;
+        text-align: center;
+        background: url(/img/fundo-rodape.png) no-repeat center top;
+        margin-top: 20px;
+    }
+    
+    footer>p a {
+        padding: 2px 10px;
+    }
+    
+    #postagens {
+        display: flex;
+        gap: 60px;
     }
